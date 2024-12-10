@@ -17,5 +17,5 @@ ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 # zsh-autosuggestions
 source $(brew --prefix zsh-autosuggestions)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# Neofetch: Run at start
-neofetch
+# Fastfetch: Run at start
+fastfetch
