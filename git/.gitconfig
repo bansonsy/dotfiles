@@ -1,0 +1,9 @@
+[user]
+	name = bansonsy
+	email = bansonsy@gmail.com
+[alias]
+	s = status
+	cm = commit -m
+	l = log --all --graph
+[init]
+	defaultBranch = main
