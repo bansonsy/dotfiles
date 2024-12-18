@@ -1,4 +1,4 @@
-# Dotfiles
+# My Dotfiles
 
 ![screenshot](img/img-1.png)
 
@@ -17,10 +17,13 @@ brew install stow
 ```
 
 - Git clone into $HOME directory.
-- Stow respective packages
+- Stow respective packages.
 
 ```zsh
 cd .dotfiles
+```
+
+```zsh
 stow zsh
 stow git
 stow kitty
