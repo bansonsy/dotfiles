@@ -17,3 +17,12 @@ brew install stow
 ```
 
 - Git clone into $HOME directory.
+- Stow respective packages
+
+```zsh
+cd .dotfiles
+stow zsh
+stow git
+stow kitty
+stow starship
+```
