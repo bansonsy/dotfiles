@@ -4,6 +4,7 @@
   "modules": [
     "break",
     "separator",
+    "break",
     "os",
     "de",
     "wm",
