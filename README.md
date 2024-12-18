@@ -13,8 +13,21 @@
 - Install stow.
 
 ```zsh
-brew install git stow starship fastfetch zsh-autosuggestions zsh-syntax-highlighting
+brew install stow
+```
+
+- Install terminal QoL.
+
+```zsh
+brew install git starship fastfetch zsh-autosuggestions zsh-syntax-highlighting
 brew install --cask kitty
+```
+
+- Install Nerd Fonts
+
+```zsh
+brew install --cask font-jetbrains-mono-nerd-font
+# kitten choose-font to set if having issues in kitty
 ```
 
 - Git clone into $HOME directory.
