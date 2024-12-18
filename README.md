@@ -13,7 +13,8 @@
 - Install stow.
 
 ```zsh
-brew install stow
+brew install git stow starship fastfetch zsh-autosuggestions zsh-syntax-highlighting
+brew install --cask kitty
 ```
 
 - Git clone into $HOME directory.
@@ -28,4 +29,5 @@ stow zsh
 stow git
 stow kitty
 stow starship
+stow fastfetch
 ```

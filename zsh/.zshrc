@@ -21,5 +21,5 @@ ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 # zsh-autosuggestions
 source $(brew --prefix zsh-autosuggestions)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# Neofetch
-neofetch 
+# fastfetch
+fastfetch 
