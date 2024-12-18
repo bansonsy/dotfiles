@@ -1,6 +1,6 @@
 # My Dotfiles
 
-![screenshot](img/img-1.png)
+![screenshot](img/terminal-ss.png)
 
 ### Requirements
 
