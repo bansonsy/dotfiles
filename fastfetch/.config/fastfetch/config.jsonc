@@ -3,8 +3,8 @@
   "logo": {
     "type": "kitty-direct",
     "source": "~/.dotfiles/img/gojo.png",
-    "height": 30,
-    "width": 45
+    "height": 25,
+    "width": 40
   },
   "modules": [
     "break",
