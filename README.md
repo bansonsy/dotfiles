@@ -44,3 +44,9 @@ stow kitty
 stow starship
 stow fastfetch
 ```
+
+- For the fastfetch and neofetch script:
+
+```zsh
+chmod +x ~/.terminal_info.sh
+```
