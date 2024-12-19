@@ -23,7 +23,3 @@ source $(brew --prefix zsh-autosuggestions)/share/zsh-autosuggestions/zsh-autosu
 
 # fastfetch
 fastfetch 
-
-# fastfetch img to replace logo
-# set the path
-fastfetch --kitty-direct /Users/bansonsy/.dotfiles/img/gojo.png
