@@ -24,3 +24,5 @@ source $(brew --prefix zsh-autosuggestions)/share/zsh-autosuggestions/zsh-autosu
 # fastfetch & neofetch script
 source ~/.dotfiles/.terminal_info.sh
  
+# Added by Java
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
