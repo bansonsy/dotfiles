@@ -4,33 +4,33 @@
 
 ### Requirements
 
-Install Homebrew.
+Install [Homebrew]:(https://github.com/Homebrew/brew)
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Install stow.
+Install [stow]:(https://github.com/aspiers/stow).
 
 ```zsh
 brew install stow
 ```
 
-Install Kitty + Terminal QoL upgrades.
+Install [Kitty]:(https://github.com/kovidgoyal/kitty) + ZSH upgrades.
 
 ```zsh
 brew install git starship fastfetch zsh-autosuggestions zsh-syntax-highlighting
 brew install --cask kitty
 ```
 
-Install Nerd Fonts
+Install [NerdFonts]:(https://www.nerdfonts.com/).
 
 ```zsh
 # kitten choose-font to set if having issues in kitty
 brew install --cask font-jetbrains-mono-nerd-font
 ```
 
-Git clone into $HOME directory and change into your .dotfiles directory.
+Git clone into $HOME directory and change into your dotfiles directory.
 Stow respective packages.
 
 ```zsh
