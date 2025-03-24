@@ -1,37 +1,37 @@
-# My Dotfiles
+# DOTFILES
 
-![screenshot](img/terminal-img.png)
+![screenshot](img/terminal-ss.png)
 
 ### Requirements
 
-- Have Homebrew installed.
+Install Homebrew.
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-- Install stow.
+Install stow.
 
 ```zsh
 brew install stow
 ```
 
-- Install terminal QoL.
+Install Kitty + Terminal QoL upgrades.
 
 ```zsh
 brew install git starship fastfetch zsh-autosuggestions zsh-syntax-highlighting
 brew install --cask kitty
 ```
 
-- Install Nerd Fonts
+Install Nerd Fonts
 
 ```zsh
-brew install --cask font-jetbrains-mono-nerd-font
 # kitten choose-font to set if having issues in kitty
+brew install --cask font-jetbrains-mono-nerd-font
 ```
 
-- Git clone into $HOME directory.
-- Stow respective packages.
+Git clone into $HOME directory and change into your .dotfiles directory.
+Stow respective packages.
 
 ```zsh
 cd .dotfiles
@@ -45,7 +45,7 @@ stow starship
 stow fastfetch
 ```
 
-- For the fastfetch and neofetch script:
+The default Apple terminal does not support images that I use for fastfetch. I have a script that allows me to run either fastfetch or neofetch depending on the terminal.
 
 ```zsh
 chmod +x ~/.terminal_info.sh
