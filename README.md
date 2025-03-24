@@ -4,26 +4,26 @@
 
 ### Requirements
 
-Install [Homebrew]:(https://github.com/Homebrew/brew)
+Install Homebrew: [Homebrew](https://github.com/Homebrew/brew)
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Install [stow]:(https://github.com/aspiers/stow).
+Install Stow: [Stow](https://github.com/aspiers/stow).
 
 ```zsh
 brew install stow
 ```
 
-Install [Kitty]:(https://github.com/kovidgoyal/kitty) + ZSH upgrades.
+Install Kitty: [Kitty](https://github.com/kovidgoyal/kitty) + ZSH upgrades.
 
 ```zsh
 brew install git starship fastfetch zsh-autosuggestions zsh-syntax-highlighting
 brew install --cask kitty
 ```
 
-Install [NerdFonts]:(https://www.nerdfonts.com/).
+Install Nerd Fonts: [NerdFonts](https://www.nerdfonts.com/).
 
 ```zsh
 # kitten choose-font to set if having issues in kitty
