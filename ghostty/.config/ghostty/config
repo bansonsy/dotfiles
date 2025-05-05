@@ -1,0 +1,12 @@
+theme = tokyonight
+font-size = 12
+background-opacity = 0.90
+
+# Split Screen
+keybind = cmd+s>.=new_split:right
+keybind = cmd+s>/=new_split:down
+
+keybind = cmd+s>'=goto_split:bottom
+keybind = cmd+s>;=goto_split:top
+keybind = cmd+s>k=goto_split:left
+keybind = cmd+s>l=goto_split:right

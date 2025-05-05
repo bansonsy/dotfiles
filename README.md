@@ -1,10 +1,8 @@
-# DOTFILES
+# Dotfiles
 
-![screenshot](img/terminal-ss.png)
+## Requirements
 
-### Requirements
-
-Install Homebrew: [Homebrew](https://github.com/Homebrew/brew)
+Install Homebrew: [Homebrew](https://github.com/Homebrew/brew).
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -19,7 +17,7 @@ brew install stow
 Install Kitty: [Kitty](https://github.com/kovidgoyal/kitty) + ZSH upgrades.
 
 ```zsh
-brew install git starship fastfetch zsh-autosuggestions zsh-syntax-highlighting
+brew install git starship fastfetch zsh-autosuggestions zsh-syntax-highlighting ghostty
 brew install --cask kitty
 ```
 
@@ -43,6 +41,7 @@ stow git
 stow kitty
 stow starship
 stow fastfetch
+stow ghostty
 ```
 
 The default Apple terminal does not support images that I use for fastfetch. I have a script that allows me to run either fastfetch or neofetch depending on the terminal.
